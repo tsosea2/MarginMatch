@@ -9,7 +9,7 @@ This is the repository for the paper `MarginMatch: Improving Semi-Supervised Lea
   year={2023}
 }
 ```
-Our code builds upon TorchSSL and we reuse various parts such as data loading
+Our code builds upon TorchSSL (https://github.com/TorchSSL/TorchSSL) and we reuse various parts such as data loading
 (with minor changes such as using indexed datasets for AUM) and network building
 (WideResNets).
 

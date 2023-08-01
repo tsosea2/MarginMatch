@@ -19,15 +19,18 @@ https://www.anaconda.com/products/distribution
 
 To install the required packages, please run:
 
+```
 sh install.sh
+```
 
 To configure the parameters of MarginMatch, please specify a configuration
 in the "config" directory. The config yaml file contains all the parameters
 of our MarginMatch, such as learning rate, AUM threshold or AUM smoothing value.
 To train using MarginMatch, simply run:
 
+```
 python marginmatch.py --c config/<config_file.yaml>
-
+```
 
 Training metrics such as mask rate or unlabeled data impurity are automatically
 logged using tensorboard in the main repository directory. To start a tensorboard

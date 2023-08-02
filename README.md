@@ -40,7 +40,8 @@ tensorboard --logdir .
 
 We evaluate the performance of our MarginMatch on four computer vision benchmarks:
 CIFAR-10, CIFAR-100, SVHN, and STL-10 using various low-resource scenarios (4 labels
-per class, 25 labels per class, 400 labels per class).
+per class, 25 labels per class, 400 labels per class). We also test MarginMatch on 
+ImageNet and WebVision.
 
 
 If you encounter any problems running the code please create an issue in this repository.
